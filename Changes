@@ -1,5 +1,8 @@
 Revision history for Alien-Microsoft-Outlook
 
+0.02    21 Dec 13
+        Pod coverage was picking up all sorts of OLE methods. Added a regex to restrict it.
+        
 0.01    15 Dec 13
         First version, released on an unsuspecting world.
 
