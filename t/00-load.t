@@ -2,10 +2,8 @@
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
-use Test::More;
+use Test::More tests => 2;
 use Test::Exception;
-
-plan tests => 2;
 
 BEGIN {
     use_ok('Alien::Microsoft::Outlook')
