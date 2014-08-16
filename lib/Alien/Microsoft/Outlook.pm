@@ -1,9 +1,9 @@
 package Alien::Microsoft::Outlook;
 
-use 5.006;
 use strict;
 use warnings;
 use Carp;
+use 5.006;
 
 use Win32::OLE;
 use Win32::OLE::Const 'Microsoft Outlook';
@@ -14,11 +14,11 @@ Alien::Microsoft::Outlook
 
 =head1 VERSION
 
-Version 0.03
+Version 0.03_002
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.03_002';
 
 =head1 SYNOPSIS
 
