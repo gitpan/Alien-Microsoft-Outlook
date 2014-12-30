@@ -8,17 +8,17 @@ use 5.006;
 use Win32::OLE;
 use Win32::OLE::Const 'Microsoft Outlook';
 
+our $VERSION = '0.05';
+
 =head1 NAME
 
-Alien::Microsoft::Outlook
+Alien::Microsoft::Outlook - Fail if Microsoft Outlook is not installed.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
-
-our $VERSION = '0.04';
 
 =head1 SYNOPSIS
 

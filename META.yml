@@ -1,5 +1,5 @@
 {---}
-{abstract: unknown}
+{abstract: 'Fail if Microsoft Outlook is not installed.'}
 {author:}
 {  - 'Duncan Garland <duncan@cpan.org>'}
 {build_requires:}
@@ -22,4 +22,4 @@
 {  Win32::OLE: 0}
 {  Win32::OLE::Const: 0}
 {  perl: 5.006}
-{version: 0.04}
+{version: 0.05}
