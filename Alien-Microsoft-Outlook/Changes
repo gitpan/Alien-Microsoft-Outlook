@@ -1,10 +1,8 @@
 Revision history for Alien-Microsoft-Outlook
 
-0.05     30 Dec 14
-         Trouble with dist. No code changes.
-         
-0.04     30 Dec 14
-         Upgrade from developer release. No changes.
+0.06     30 Dec 14
+         Upgrade 0.03_002 to 0.06. Releases 0.04 and 0.05 were aborted
+         due to problems with MakeMaker.
          
 0.03_002 16 Aug 14
          More work on Kwalitee.
