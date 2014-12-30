@@ -1,44 +1,25 @@
-name:                  Alien-Microsoft-Outlook
-version:               0.03_002
-abstract:              Check if Microsoft outlook is installed.
-author:                Duncan <duncan@cpan.org>
-
-dynamic_config:        0
-
-license: artistic_2
-
-release_status:        testing
-
-prereqs :
-  runtime :
-     requires:
-        perl:               5.006
-        
-  build :
-    requires:        
-      Test::More:             0
-      Test::Exception:        0
-                       
-provides:
-    Alien::Microsoft::Outlook:
-       file:         lib/Alien/Microsoft/Outlook.pm
-       version:      0.03_002
-no_index:
-  directory:
-    - t
-    - examples
-    
-resources:
-  license:  http://www.perlfoundation.org/artistic_license_2_0
-  bugtracker: 
-    web : http://rt.cpan.org/Public/Dist/Display.html?Name=Alien-Microsoft-Outlook
-    mailto : duncan@cpan.org
-    
-meta-spec:
-  version: 2
-  url:     http://search.cpan.org/perldoc?CPAN::Meta::Spec  
-  
-generated_by: Hand 1.0
-
-
-  
+{---}
+{abstract: unknown}
+{author:}
+{  - 'Duncan Garland <duncan@cpan.org>'}
+{build_requires:}
+{  Test::Exception: 0}
+{  Test::More: 0}
+{configure_requires:}
+{  ExtUtils::MakeMaker: 0}
+{dynamic_config: 1}
+{generated_by: 'ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.132140'}
+{license: unknown}
+{meta-spec:}
+{  url: http://module-build.sourceforge.net/META-spec-v1.4.html}
+{  version: 1.4}
+{name: Alien-Microsoft-Outlook}
+{no_index:}
+{  directory:}
+{    - t}
+{    - inc}
+{requires:}
+{  Win32::OLE: 0}
+{  Win32::OLE::Const: 0}
+{  perl: 5.006}
+{version: 0.04}
